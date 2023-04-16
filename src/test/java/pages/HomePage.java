@@ -19,6 +19,6 @@ public class HomePage {
     public WebElement password;
     @FindBy(xpath ="//span[contains(text(),'LOGIN')]" )
     public WebElement loginButton;
-    @FindBy(tagName = "img")
+    @FindBy(xpath = "//img")
     public WebElement campusimg;
 }
